@@ -1,8 +1,8 @@
 <?php
 # $ php -f db-connect-test.php
 $dbname = 'openelectivems';
-$dbuser = 'root';
-$dbpass = 'mpsk22';
+$dbuser = 'databasename';
+$dbpass = 'password';
 $dbhost = 'localhost';
 
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass) or die("Unable to Connect to '$dbhost'");
